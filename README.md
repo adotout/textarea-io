@@ -1,7 +1,7 @@
 TextArea-IO
 ===========
 
-TextArea-IO is a module that turns text areas into standard I/O. This is useful for websites that emulate console applications.
+TextArea-IO is a module that turns text areas into standard I/O fields. This is useful for websites that emulate console applications.
 
 Examples
 --------
