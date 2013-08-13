@@ -77,6 +77,9 @@
 			}
 			toReturn = current.substr(0, 1)
 			fifo[0] = current.substr(1, current.length - 1)
+			if (fifo[0].length == 0) {
+				fifo = [];
+			}
 			return toReturn
 		}
 	}
@@ -123,7 +126,7 @@
 			throw "Error: must provide a callback to Get"
 		}
 		var type = mode == undefined ? "line" : mode;
-		if (this.callbackQueue.length == 0) {
+		if (this.inputQueue.length == 0) {
 			this.callbackQueue.push({ callback: callback, mode: mode });
 		} else {
 			this._processCallback({ callback: callback, mode: mode })

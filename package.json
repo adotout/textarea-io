@@ -2,7 +2,7 @@
   "author": "Bryan Ehrlich <ehrlich.bryan@gmail.com>",
   "name": "textarea-io",
   "description": "Convert textareas into standard I/O for console program emulators",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/adotout/textarea-io",
   "files": ["src"],
   "main": "src/textarea-io.js",
